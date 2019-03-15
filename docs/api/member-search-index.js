@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"edu.cnm.deepdive","c":"DNA","l":"complement(String, boolean)","url":"complement(java.lang.String,boolean)"},{"p":"edu.cnm.deepdive","c":"DNA","l":"complement(String)","url":"complement(java.lang.String)"}]
