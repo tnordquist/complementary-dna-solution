@@ -97,4 +97,11 @@ For unit testing extra credit, you must define (and test) at least 4 additional 
 
 * [**Implementation**](docs/api/src-html/edu/cnm/deepdive/DNA.html)
 
-* [**Unit tests**](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
+* **Unit tests**
+
+    * [Source](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
+    * Test cases
+        * [`sequences_upper.csv`](test/edu/cnm/deepdive/sequences_upper.csv)
+        * [`sequences_mixed_disrespect.csv`](test/edu/cnm/deepdive/sequences_mixed_disrespect.csv)
+        * [`sequences_mixed_respect.csv`](test/edu/cnm/deepdive/sequences_mixed_respect.csv)
+
