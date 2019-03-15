@@ -92,3 +92,9 @@ For unit testing extra credit, you must define (and test) at least 4 additional 
 * The method to be completed includes a `TODO` comments to that effect.
 
 * In order to minimize repeated code, it is common for the implementation of a method overload to include an invocation of another overload of the same name.
+
+## Solution code
+
+* [**Implementation**](docs/api/src-html/edu/cnm/deepdive/DNA.html)
+
+* [**Unit tests**](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
