@@ -93,15 +93,18 @@ For unit testing extra credit, you must define (and test) at least 4 additional 
 
 * In order to minimize repeated code, it is common for the implementation of a method overload to include an invocation of another overload of the same name.
 
-## Solution code
+## Solution
 
-* [**Implementation**](docs/api/src-html/edu/cnm/deepdive/DNA.html)
+### Implementation
 
-* **Unit tests**
+* [Source](docs/api/src-html/edu/cnm/deepdive/DNA.html)
 
-    * [Source](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
-    * Test cases
-        * [`sequences_upper.csv`](test/edu/cnm/deepdive/sequences_upper.csv)
-        * [`sequences_mixed_disrespect.csv`](test/edu/cnm/deepdive/sequences_mixed_disrespect.csv)
-        * [`sequences_mixed_respect.csv`](test/edu/cnm/deepdive/sequences_mixed_respect.csv)
+### Unit tests
+
+* [Source](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
+
+* Test cases
+    * [`sequences_upper.csv`](test/edu/cnm/deepdive/sequences_upper.csv)
+    * [`sequences_mixed_disrespect.csv`](test/edu/cnm/deepdive/sequences_mixed_disrespect.csv)
+    * [`sequences_mixed_respect.csv`](test/edu/cnm/deepdive/sequences_mixed_respect.csv)
 
