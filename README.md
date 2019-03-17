@@ -50,6 +50,10 @@ In evaluating your implementation, we reserve the right to include additional te
 
 * The method to be completed includes a `TODO` comments to that effect.
 
+### Solution
+
+(See [below](#solution-1).)
+
 ## Extra credit
 
 In the basic problem, all characters in the input string are assumed to be upper-case. In some cases, it can be useful not only to handle lower- or mixed-case input, but to preserve the case of the input, replacing each character with its complement of the same case.
@@ -93,18 +97,21 @@ For unit testing extra credit, you must define (and test) at least 4 additional 
 
 * In order to minimize repeated code, it is common for the implementation of a method overload to include an invocation of another overload of the same name.
 
-## Solution
+### Solution
 
-### Implementation
+#### Implementation
 
-* [Source](docs/api/src-html/edu/cnm/deepdive/DNA.html)
+* [**`edu/cnm/deepdive/DNA.java`**](docs/api/src-html/edu/cnm/deepdive/DNA.html)
 
-### Unit tests
+#### Unit tests
 
-* [Source](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
+* [**`edu/cnm/deepdive/DNATest.java`**](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
 
 * Test cases
+
     * [`sequences_upper.csv`](test/edu/cnm/deepdive/sequences_upper.csv)
+    
     * [`sequences_mixed_disrespect.csv`](test/edu/cnm/deepdive/sequences_mixed_disrespect.csv)
+    
     * [`sequences_mixed_respect.csv`](test/edu/cnm/deepdive/sequences_mixed_respect.csv)
 
