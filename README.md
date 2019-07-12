@@ -60,7 +60,7 @@ In the basic problem, all characters in the input string are assumed to be upper
 
 ### Implementation
 
-For extra credit, complete the implementation of the overload of `complement` with the following signature, return type, and modifiers:
+For extra credit, complete the implementation of the overload of `complement` (**do not** change the signature of the method you previously implemented) with the following signature, return type, and modifiers:
 
 ``` .java
 public static String complement(String sequence, boolean respectCase)
@@ -79,7 +79,7 @@ When `respectCase` is `true`, this method should make the following replacements
 
 When `respectCase` is `false`, your implementation should simply return an upper-case result, regardless of the case of `input`.
 
-For full credit, you should aim to have as little repeated code as possible between the 2 overloads of `complement`. Also, an invocation of the `complement(String sequence)` overload should behave exactly the same as an invocation of `complement(String sequence, boolean respectCase)`, where `respectCase` has the value `false`. (This may require modification of your implementation from the basic problem.)
+For full credit, you should aim to have as little repeated code as possible between the 2 overloads of `complement`; one way to do this is to have one overloaded method invoke another. Also, an invocation of the `complement(String sequence)` overload should behave exactly the same as an invocation of `complement(String sequence, boolean respectCase)`, where `respectCase` has the value `false`. (Depending on your approach, this may require modification of your implementation from the basic problem.)
 
 ### Unit tests
 
