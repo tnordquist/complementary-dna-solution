@@ -101,11 +101,11 @@ For unit testing extra credit, you must define (and test) at least 4 additional 
 
 #### Implementation
 
-* [**`edu/cnm/deepdive/DNA.java`**](docs/api/src-html/edu/cnm/deepdive/DNA.html)
+* [**`edu/cnm/deepdive/DNA.java`**](api/src-html/edu/cnm/deepdive/DNA.html)
 
 #### Unit tests
 
-* [**`edu/cnm/deepdive/DNATest.java`**](docs/api/src-html/edu/cnm/deepdive/DNATest.html)
+* [**`edu/cnm/deepdive/DNATest.java`**](api/src-html/edu/cnm/deepdive/DNATest.html)
 
 * Test cases
 

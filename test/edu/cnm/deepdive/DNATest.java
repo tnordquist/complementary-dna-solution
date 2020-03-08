@@ -8,13 +8,13 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 class DNATest {
 
   @ParameterizedTest
-  @CsvFileSource(resources = "/sequences_upper.csv")
+  @CsvFileSource(resources = "sequences_upper.csv")
   void complement(String sequence, String expected) {
     assertEquals(expected, DNA.complement(sequence));
   }
 
   @ParameterizedTest
-  @CsvFileSource(resources = "/sequences_mixed_disrespect.csv")
+  @CsvFileSource(resources = "sequences_mixed_disrespect.csv")
   void complementDisrespectCase(String sequence, String expected) {
     assertAll(
         () -> assertEquals(expected, DNA.complement(sequence)),
@@ -23,7 +23,7 @@ class DNATest {
   }
 
   @ParameterizedTest
-  @CsvFileSource(resources = "/sequences_mixed_respect.csv")
+  @CsvFileSource(resources = "sequences_mixed_respect.csv")
   void complementRespectCase(String sequence, String expected) {
     assertEquals(expected, DNA.complement(sequence, true));
   }
