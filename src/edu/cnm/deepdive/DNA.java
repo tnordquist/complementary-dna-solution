@@ -1,10 +1,27 @@
+/*
+ *  Copyright 2020 Deep Dive Coding/CNM Ingenuity, Inc.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
 package edu.cnm.deepdive;
 
 /**
- * This class implements a simple string converter that replaces the nucleobase symbols
+ * This class includes the {@link #complement(String)} and {@link #complement(String, boolean)}
+ * methods, both of which implement a simple string converter that replaces the nucleobase symbols
  * (<code>A</code>,<code>T</code>, <code>C</code>, and <code>G</code>), with their respective
  * complements (<code>T</code>,<code>A</code>, <code>G</code>, and <code>C</code>), in a string
- * representing a DNA sequence/subsequence.
+ * representing a DNA sequence/subsequence. Implementation of these methods is included in the
+ * practical exam materials of the Deep Dive Coding Java + Android Bootcamp.
  */
 public class DNA {
 

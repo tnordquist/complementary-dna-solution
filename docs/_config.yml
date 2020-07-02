@@ -1,3 +1,8 @@
-theme: jekyll-theme-slate
-title: Complementary DNA Solution
-show_downloads: false
+remote_theme: ddc-java/ddc-day
+title: Practical Exam 2
+assignment_url:
+page_navigator:
+  enabled: false
+author:
+  name: Nick Bennett
+  email: nick@nickbenn.com
