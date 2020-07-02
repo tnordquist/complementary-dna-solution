@@ -109,46 +109,12 @@ For unit testing extra credit, you must define (and test) at least 4 additional 
 
 ## Solution
 
-```java
-package edu.cnm.deepdive;
+### Overview
 
-public class DNA {
+The basic approach used here is a `switch`, mapping the original characters to their complements. This `switch` is executed in the body of a `for`, iterating over a `char[]` containing all of the characters in the input. As each `char` is mapped, it is appended to a `StringBuilder` instance.
 
-  public static String complement(String sequence) {
-    return complement(sequence, false);
-  }
+For the extra credit solution, the `for` loop and the `switch` are moved to the `complement(String, boolean)` overload, which is in turn invoked by `complement(String)`. The original case of each `char`, along with the `respectCase` parameter value, are used to control whether the complementary `char` should be transformed back to lowercase before appending to the `StringBuilder`.
 
-  public static String complement(String sequence, boolean respectCase) {
-    StringBuilder builder = new StringBuilder();
-    char[] chars = sequence.toCharArray();
-    for (char c : chars) {
-      boolean isLowerCase = respectCase && Character.isLowerCase(c);
-      c = Character.toUpperCase(c);
-      char complement;
-      switch (c) {
-        case 'A':
-          complement = 'T';
-          break;
-        case 'C':
-          complement = 'G';
-          break;
-        case 'G':
-          complement = 'C';
-          break;
-        case 'T':
-          complement = 'A';
-          break;
-        default:
-          complement = c;
-          break;
-      }
-      if (isLowerCase) {
-        complement = Character.toLowerCase(complement);
-      }
-      builder.append(complement);
-    }
-    return builder.toString();
-  }
+### Code
 
-}
-```
+For implementation details, see the source listing: [`edu.cnm.deepdive.DNA`](api/src-html/edu/cnm/deepdive/DNA.html)

@@ -1,4 +1,4 @@
-# Complementary DNA
+# Complementary DNA Solution
 
 
 This project specifies a coding problem (computing the complement of a DNA sequence string) used in an assignment, extra credit opportunity or practical exam of the 
@@ -7,21 +7,23 @@ This project specifies a coding problem (computing the complement of a DNA seque
 
 ## Links
 
-Note: Online links will not work if this coding problem is not currently published.  
+Note: Online links will not work if this coding problem solution is not currently published.  
 
 * Problem description
-    * [Online](https://ddc-java.github.io/complementary-dna/)
+    * [Online](https://ddc-java.github.io/complementary-dna-solution/)
     * [Local](docs/index.md) 
         
     The problem description may contain a combination of Markdown, HTML, Liquid, and LaTeX; the local version will generally not render completely, even in a browser or Markdown viewer.
 
 * Javadocs 
 
-    * [Online](https://ddc-java.github.io/complementary-dna/api/)
+    * [Online](https://ddc-java.github.io/complementary-dna-solution/api/)
 
 * Java
 
-    * [`edu.cnm.deepdive.DNA`](src/edu/cnm/deepdive/DNA.java) (local stub)
+    * [`edu.cnm.deepdive.DNA`](src/edu/cnm/deepdive/DNA.java) (local)
+
+    * [`edu.cnm.deepdive.DNATest`](test/edu/cnm/deepdive/DNATest.java) (local)
 
 ## License information
 
