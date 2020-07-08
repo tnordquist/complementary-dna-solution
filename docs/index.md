@@ -3,11 +3,11 @@ title: Complementary DNA Solution
 description: "Translate a DNA sequence into its complement."
 ---
 
-{% if assignment.url -%}
+{% if site.assignment_url -%}
 
 ## Assignment
 
-* Link: <{{ assignment.url }}>
+* Link: <{{ site.assignment_url }}>
 * Format: IntelliJ Java project
 
 {%- endif %}
