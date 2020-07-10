@@ -45,8 +45,8 @@ Your task is to complete the implementation of `sequence`, according to these sp
 
 For unit testing credit, use JUnit5 to verify your code with the following inputs and expected outputs.
 
-| `sequence` | Return value |
-|:-------------|:-------------|
+| `sequence` | Expected value returned by `DNA.complement(sequence)` |
+|:-------------:|:-------------:|
 | `"ATATGCGC"` | `"TATACGCG"` |
 | `"GCCTTTAAAATTTCCG"` | `"CGGAAATTTTAAAGGC"` |
 | `"ATCGATCG"` | `"TAGCTAGC"` |
@@ -89,11 +89,24 @@ When `respectCase` is `true`, this method should make the following replacements
 
 When `respectCase` is `false`, your implementation should simply return an upper-case result, regardless of the case of `input`.
 
-For full credit, you should aim to have as little repeated code as possible between the 2 overloads of `complement`; one way to do this is to have one overloaded method invoke another. Also, an invocation of the `complement(String sequence)` overload should behave exactly the same as an invocation of `complement(String sequence, boolean respectCase)`, where `respectCase` has the value `false`. (Depending on your approach, this may require modification of your implementation from the basic problem.)
+For full credit, you should have as little repeated code as possible between the 2 overloads of `complement`; one way to do this is to have one overloaded method invoke another. Also, an invocation of the `complement(String sequence)` overload should behave exactly the same as an invocation of `complement(String sequence, boolean respectCase)`, where `respectCase` has the value `false`. (Depending on your approach, this may require modification of your implementation from the basic problem.)
 
 ### Unit tests
 
-For unit testing extra credit, you must define (and test) at least 4 additional test cases with mixed-case input, covering invocations of the `complement(String sequence, boolean respectCase)` with both `true` and `false` values of `respectCase`.
+For unit testing extra credit, use JUnit5 to test your implementation with the following test cases:
+
+| `sequence` | `respectCase` | Expected value returned by `DNA.complement(sequence, respectCase)` |
+|:-------------:|:-------------:|:-----------:|
+| `"AtaTGcgC"` | `true` | `"TatACgcG"` |
+| `"GCctTtaAAaTTtcCG"` | `true` | `"CGgaAatTTtAAagGC"` |
+| `"ATcgAtcG"` | `true` | `"TAgcTagC"` |
+| `"CccCGggTta"` | `true` | `"GggGCccAat"` |
+| `"AtaTGcgC"` | `false` | `"TATACGCG"` |
+| `"GCctTtaAAaTTtcCG"` | `false` | `"CGGAAATTTTAAAGGC"` |
+| `"ATcgAtcG"` | `false` | `"TAGCTAGC"` |
+| `"CccCGggTta"` | `false` | `"GGGGCCCAAT"` |
+
+In evaluating your implementation, we reserve the right to include additional test cases; code that satisfies the requirements stated above should pass all such additional tests.
 
 ### Hints
 
